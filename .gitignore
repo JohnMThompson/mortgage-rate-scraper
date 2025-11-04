@@ -1,3 +1,4 @@
 config.py
 venv/
 .MORTGAGE-RATE-SCRAPER/
+run_script.sh
