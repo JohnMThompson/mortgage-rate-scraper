@@ -107,3 +107,4 @@ Short summary: you may use, copy, modify, and distribute this software with attr
 ## Acknowledgements
 
 Originally created as a small personal project to learn web scraping and cron scheduling.
+This README was created with the assistance of AI.
