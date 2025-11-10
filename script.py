@@ -18,7 +18,7 @@ table = soup.find_all('td')
 fr30 = float(str(table[0]).replace(" ","").replace("\t","").replace("\n","")[4:10])
 fr30pt = float(str(table[2]).replace(" ","").replace("\t","").replace("\n","")[4:6])
 
-ARM71 = float(str(table[25]).replace(" ","").replace("\t","").replace("\n","")[4:9])
+ARM71 = float(str(table[25]).replace(" ","").replace("\t","").replace("\n","")[4:10])
 ARM71pt = float(str(table[7]).replace(" ","").replace("\t","").replace("\n","")[4:6])
 
 # Connect to database
@@ -40,4 +40,3 @@ db.commit()
 # Close database connection
 cursor.close()
 db.close()
-
